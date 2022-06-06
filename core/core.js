@@ -33,6 +33,7 @@ vk.updates.on('message_new', ctx => {
   // Игнорирование лишних сообщений
   if (!ctx.isChat) return
   if (config.general.active_chats != 'all' && !config.general.active_chats.includes(ctx.chatId)) return
+  if (config.general.ignore_ids.includes(ctx.senderId)) return
 
   // Игнорирование лишних сообщений
   if (!ctx.isUser || !ctx.text) return
