@@ -38,7 +38,7 @@ vk.updates.on('message_new', ctx => {
   if (!ctx.isUser || !ctx.text) return
 
   // Проверка на наличия пользователя в списке
-  if (config.general.active_chats != 'all' && ctx.senderId = config.longpoll.id && !config.general.users_ids.includes(ctx.senderId)) return
+  if (config.general.active_chats != 'all' && ctx.senderId == config.longpoll.id && !config.general.users_ids.includes(ctx.senderId)) return
 
   // Проверка источника сообщения (беседа / личные сообщения) (для логирования)
   const is_from_chat = ctx.isChat ? `#${ctx.chatId}: ` : ''
