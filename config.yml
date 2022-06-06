@@ -4,6 +4,8 @@ longpoll:
   token: TOKEN
   # Версия
   version: 5.131
+  # ID пользователя, на котором стоит бот
+  id: ID
 
 # Настройки логирования
 logging:
