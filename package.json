@@ -1,0 +1,17 @@
+{
+  "name": "LoserBot",
+  "version": "0.0.1",
+  "description": "Bot that responds to your haters messages",
+  "main": "core/core.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotmix/LoserBot.git"
+  },
+  "author": "dotmix",
+  "license": "MIT",
+  "dependencies": {
+    "vk-io": "^4.4.0",
+    "yaml": "^1.10.2"
+  }
+}
