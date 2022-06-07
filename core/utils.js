@@ -1,3 +1,5 @@
+// UTILS BY HEPLLER (github.com/hepller)
+
 // Экспорт функций
 export default class Utils {
 
