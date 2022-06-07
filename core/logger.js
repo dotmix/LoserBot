@@ -1,3 +1,5 @@
+// LOGGER BY HEPLLER (github.com/hepller)
+
 // Импорт зависимостей
 import YAML from 'yaml'
 
